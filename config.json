@@ -5,7 +5,7 @@
     "robots": "noindex,nofollow"
   },
   "url": {
-    "base": "https://tsb-kulturb-api.herokuapp.com/api/v1",
+    "base": "http://localhost:8000/api/v1",
     "locations": {
       "base": "/locations",
       "export": "/export",
@@ -27,10 +27,7 @@
     }
   },
   "localStoragePrefix": "tsb",
-  "types": [
-    { "label": "organisation", "value": "organisation" },
-    { "label": "venue", "value": "venue" }
-  ],
+  "types": [{ "label": "organisation", "value": "organisation" }, { "label": "venue", "value": "venue" }],
   "accessibility": [
     { "label": "Ja", "value": "yes" },
     { "label": "Nein", "value": "no" },
